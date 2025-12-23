@@ -1,75 +1,84 @@
 World
-A repository for post-political governance architectures, algorithmic justice, and system-level political design.
-This repository aggregates political, governance, and civilizational frameworks developed under a single guiding principle:
-Politics should be replaced by verifiable systems.
-Justice should be executable.
-Power should be constrained by code.
-The flagship framework hosted here is Dikenocracy.
+Dikenocracy — a framework for algorithmic justice where governance is treated as an engineering problem and power is an immutable function, not a political mandate.
+This repository hosts post-political governance architectures, system-level political design, and executable models of justice.
+It is built on a simple premise:
+Politics does not fail because of bad people.
+It fails because it is not a system.
 What is Dikenocracy?
-Dikenocracy is a model of governance based on the ancient Greek concept of δίκη (dike) — justice as an objective balance between actions and consequences — formalized as algorithms, metrics, and automated liability.
+Dikenocracy is a governance model based on the ancient Greek concept of δίκη (dike) — justice as an objective balance between actions and consequences — formalized as algorithms, metrics, and automated liability.
 In Dikenocracy:
 Power is not held by people, parties, or elites
 Power is held by an immutable justice function
 Damage automatically generates liability
 Profit is mathematically linked to public benefit
-Lies and manipulation are economically unprofitable
+Deception and manipulation are economically unprofitable
+Governance operates through thresholds, not discretion
 Justice ceases to be a metaphor — and becomes code.
 Core Principles
 Algorithmic Justice
-Decisions are made by transparent, open algorithms, not subjective authority.
-Objective Metrics
-Social, economic, and ecological outcomes are measured using verifiable data (Physical Truth Layer).
+Governance decisions are executed by transparent, open algorithms rather than subjective authority.
+Objective Metrics (Physical Truth Layer)
+Social, economic, and ecological outcomes are grounded in verifiable physical data rather than opinion or consensus.
 Automatic Accountability
-Harm, aggression, corruption, or deception trigger predefined consequences without political discretion.
-Alignment of Incentives
-Individual or state-level self-interest is mathematically aligned with system stability and public good.
+Harm, aggression, corruption, or systemic damage trigger predefined consequences without political arbitration.
+Incentive Alignment
+Individual, corporate, and state-level self-interest is mathematically constrained to increase system stability.
 Post-Political Governance
-No elections of rulers. No lobbying. No ideology wars.
-Operators are hired against KPIs and removed automatically on failure.
+No elected rulers. No lobbying. No ideology arbitration.
+Operators are contracted against systemic performance thresholds and removed automatically upon failure.
 Repository Scope
-The world repository is intended as a political laboratory, containing:
-Governance models and constitutional frameworks
-Algorithmic justice systems
-Economic protocols and incentive architectures
-Security and liability mechanisms
+The world repository functions as a political systems laboratory.
+It contains:
+Governance frameworks and constitutional architectures
+Algorithmic justice protocols
+Economic incentive models
+Security, liability, and anti-aggression mechanisms
 Post-democratic and post-national governance concepts
-Drafts, specifications, simulations, and critiques
-This is not a party program and not a manifesto for elections.
-It is a systems repository.
-Structure (initial)
+Drafts, specifications, critiques, and future simulations
+This is not a party platform.
+This is not an electoral project.
+This is a systems repository.
+Repository Structure
 Копировать код
 
 world/
 ├── dikenocracy/
-│   ├── README.md
-│   ├── code_of_planetary_synergy.md
-│   ├── protocols/
-│   ├── economic_models/
-│   └── governance_mechanics/
-├── research/
-├── drafts/
+│   ├── protocols/              # Governance and justice protocols
+│   ├── economic_models/        # Incentive and liability architectures
+│   └── governance_mechanics/   # Operator logic and system thresholds
+├── research/                   # Information physics, TIU foundations
+├── drafts/                     # Work-in-progress documents
 └── references/
-Structure will evolve as ideas mature.
+The structure will evolve as models mature.
+Scientific Foundation
+Dikenocracy is not a purely philosophical construct.
+Its governance logic is grounded in Information Physics, specifically the Theory of the Informational Universe (TIU), where:
+Reality is constrained by information flow
+Truth must be anchored in physical observables
+Stable systems emerge from feedback, not authority
+This foundation is implemented through the Physical Truth Layer, which supplies objective data to governance algorithms.
+Key Document
+Code of Planetary Synergy — Full Specification (PDF)
+Comprehensive protocol-level description of the Dikenocracy system.
+(Link the PDF here once committed)
+How to Contribute or Critique
+Critical engagement is explicitly encouraged.
+Open an Issue for conceptual discussion or critique
+Submit a Pull Request for protocol refinement or structural improvements
+Fork the repository for independent exploration, with attribution preserved
+Dogma is rejected.
+Formal critique is welcomed.
+License & Attribution
+This repository is released under the Apache License 2.0.
+Attribution is mandatory.
+Original author of the Dikenocracy framework:
+Igor Opolinsky
+Misrepresentation of authorship or removal of attribution constitutes a license violation and a breach of academic integrity.
 Status
 Conceptual framework: active
-Technical formalization: in progress
+Formal specification: published
 Public critique and iteration: open
-Implementation: future parallel systems
-Intellectual Position
-This repository assumes that:
-Traditional politics is structurally obsolete
-Democracy without objective feedback collapses into populism
-Technocracy without accountability collapses into oligarchy
-Truth must be grounded in physical reality, not consensus
-Governance must be treated as an engineering problem
-License & Use
-All ideas here are published for open discussion, critique, and extension.
-Forking, citation, and adaptation are encouraged.
-Closed, authoritarian, or coercive reinterpretations are explicitly rejected.
-Author
-Igor Opolinsky
-Independent researcher
+Implementation: parallel systems / future work
 Final Note
 We are not asking the old world for permission.
 We are building a new one beside it.
-
