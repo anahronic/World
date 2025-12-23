@@ -1,0 +1,230 @@
+# DKP-0-ORACLE-001  
+## Physical Truth Layer Protocol (PTL)
+
+### Version
+0.5
+
+### Status
+Immutable Core Protocol — Final Frozen Version
+
+---
+
+## 1. Purpose
+
+The Physical Truth Layer (PTL) defines the sole admissible interface between physical reality and the Dikenocracy governance system.
+
+Its function is to produce an objective, cryptographically verifiable, and physically grounded representation of reality, independent of political, economic, or human discretion.
+
+The PTL produces state only. It does not interpret meaning, intent, value, or policy.
+
+---
+
+## 2. System Position and Anchoring
+
+This protocol is an integral extension of Appendix A.2 of the Code of Planetary Synergy and is anchored to Genesis Block #0 (2025-12-10).
+
+Compatibility with the Genesis Block physical anchors and parameters is a mandatory validity condition for any PTL implementation.
+
+---
+
+## 3. Scope
+
+This protocol governs:
+- Oracle admissibility
+- Data ingestion constraints
+- Oracle weighting and ownership caps
+- Temporal validity of data
+- Data aggregation methodology
+- Divergence detection and arbitration
+- Production of raw physical indices required by higher layers
+
+This protocol explicitly excludes:
+- Human testimony or manual input
+- Semantic interpretation
+- Policy reasoning
+- Cross-layer feedback or parameter adjustment
+
+---
+
+## 4. Core Definitions
+
+**Physical State Vector S(t)**  
+A time-indexed vector of physically measurable variables.
+
+**Oracle Source**  
+A hardware-bound system producing cryptographically signed physical measurements.
+
+**Oracle Owner**  
+A natural or legal person controlling one or more oracle sources.
+
+**Confidence Weight wᵢ**  
+A normalized reliability contribution of an oracle source.
+
+**Coverage**  
+The fraction of the target physical domain that is actively observed by valid oracle sources.
+
+**Data Staleness (TTL)**  
+The maximum admissible age of a datum before its confidence weight is forced to zero.
+
+**Independent Oracle Classes**  
+Distinct measurement modalities defined by physical separation of sensing mechanisms.
+
+**Divergence Event**  
+A statistically significant disagreement between independent oracle classes.
+
+---
+
+## 5. Independent Oracle Classes
+
+The PTL defines the following independent oracle classes:
+
+- Orbital (satellite-based remote sensing)
+- Ground (fixed terrestrial or marine sensors)
+- Autonomous (mobile or robotic sensing platforms)
+
+Divergence detection applies exclusively across classes, not within a single class.
+
+---
+
+## 6. Data Ingestion Rules
+
+1. All data MUST be:
+   - Cryptographically signed at the source
+   - Time-stamped with a verifiable clock
+   - Traceable to a registered oracle identity
+   - Delivered in an open, publicly decodable schema
+
+2. Proprietary or non-decodable data formats SHALL be rejected regardless of signature validity.
+
+3. Zero-knowledge proofs MAY be used to verify authenticity without revealing proprietary sensor internals.
+
+4. No data may be modified, normalized, or interpreted at ingestion time.
+
+---
+
+## 7. Oracle Weighting and Anti-Collusion Constraints
+
+1. Maximum confidence weight per oracle source: **5%**
+
+2. Maximum combined confidence weight per oracle owner: **4%**
+
+3. Ownership caps apply regardless of the number or distribution of devices.
+
+4. Exceeding caps results in:
+   - Automatic zeroing of excess weight
+   - Slashing of the violating owner's remaining stake, where applicable
+
+---
+
+## 8. Temporal Validity and Data Staleness
+
+1. All data types SHALL have an explicit TTL.
+
+2. Data exceeding its TTL SHALL have its confidence weight set to zero.
+
+3. Stale data MUST NOT be extrapolated, substituted, or interpolated.
+
+---
+
+## 9. Data Aggregation Method
+
+The PTL aggregates admissible data using a deterministic Bayesian ensemble.
+
+- Oracle inputs act as likelihood updates, not votes
+- Prior weights reflect long-term reliability
+- Posterior distributions define S(t)
+
+Given identical inputs, aggregation MUST be reproducible.
+
+---
+
+## 10. Divergence Detection and Arbitration
+
+1. A Divergence Event is triggered when posterior distributions across independent oracle classes differ by more than **7%**.
+
+2. Upon Divergence Event:
+   - A divergence flag is emitted
+   - All dependent state-based transactions SHALL be frozen
+
+3. Maximum arbitration window: **14 days**
+
+4. Resolution requires convergence within threshold or exclusion of faulty sources.
+
+---
+
+## 11. Outputs
+
+The PTL produces the following immutable outputs:
+
+- Signed Physical State Vector S(t)
+- Oracle confidence weights
+- Coverage metrics
+- Divergence flags
+- Raw Biosphere Integrity Index **B(t)**
+
+B(t) is a physically derived, unnormalized measure and contains no policy-level adjustments.
+
+---
+
+## 12. Systemic Halt Conditions
+
+All dependent governance execution layers MUST halt if any of the following conditions occur:
+
+- Aggregate confidence falls below **60%**
+- Global coverage falls below the minimum operational threshold
+- Systemic oracle integrity is compromised
+
+### Crisis Mercy Exception
+
+If a Crisis Mercy status is formally activated under Appendix A.4 of the Code of Planetary Synergy, and the PTL confirms that oracle degradation is caused by non-anthropogenic global events, enforcement of Systemic Halt MAY be temporarily deferred.
+
+Such deferral:
+- DOES NOT modify TTL values
+- DOES NOT restore stale data weights
+- DOES NOT alter aggregation logic
+- IS strictly time-limited in accordance with Appendix A.4
+
+---
+
+## 13. Cross-Layer Isolation Invariant
+
+No higher-layer protocol may:
+- Influence oracle weights
+- Modify TTL values
+- Alter aggregation logic
+- Suppress divergence flags
+
+Violation constitutes a critical system integrity breach.
+
+---
+
+## 14. Table of Constants
+
+| Parameter | Value |
+|---------|-------|
+| Max oracle source weight | 5% |
+| Max oracle owner weight | 4% |
+| Divergence threshold | 7% |
+| Arbitration window | 14 days |
+| Systemic confidence halt | < 60% |
+| Minimum global coverage | 80% |
+
+---
+
+## 15. TTL Registry (Normative)
+
+| Data Type | Maximum TTL |
+|----------|-------------|
+| Atmospheric CO₂ concentration | 1 hour |
+| Surface temperature (land/sea) | 24 hours |
+| Active fire detection | 10 minutes |
+| Biodiversity indices | 30 days |
+| Land-use change | 7 days |
+
+---
+
+## 16. Non-Override and Finality
+
+This protocol is immutable once deployed.
+
+Any modification requires a new protocol identifier and explicit incompatibility declaration.
