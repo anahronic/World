@@ -15,7 +15,7 @@ Deception and manipulation are economically unprofitable
 Governance operates through thresholds, not discretion
 Justice ceases to be a metaphor — and becomes code.
 Core Principles
-Algorithmic Justice
+Algorithmic Justice 
 Governance decisions are executed by transparent, open algorithms rather than subjective authority.
 Objective Metrics (Physical Truth Layer)
 Social, economic, and ecological outcomes are grounded in verifiable physical data rather than opinion or consensus.
