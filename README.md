@@ -104,12 +104,15 @@ scope limitation over authority expansion
 
 Any research materials included in this repository are non-normative and do not constitute a foundation for governance validity.
 
-Key Document
+Key Documents
 
-Code of Planetary Synergy — Full Specification (PDF)
-A comprehensive protocol-level description of the Dikenocracy system.
+[Dikenocracy SYNERGY and 35 PROTOCOLS.txt](Dikenocracy%20SYNERGY%20and%2035%20PROTOCOLS.txt) — the complete text of the current release (2026-10-04): the Code of Planetary Synergy, a pointer to the authorial postulates, all 35 protocols (L0–L8), the DKP-4-CRISIS-001 addendum, Appendix A and the glossary. The same file is offered for download at https://dikenocracy.com/pages/protocols.html.
 
-(Link to be added once committed)
+[Dikenocracy/](Dikenocracy/) — the canonical source of each document as Markdown (`*.md`, normative text). The `*.docx` files next to them are generated from the same sources. Each document carries its own "Last updated" date; changes to normative content follow DKP-4-UPGRADE-001.
+
+[SHA256SUMS.txt](SHA256SUMS.txt) — SHA-256 digests of the canonical sources and of the consolidated text of the release.
+
+The website pages and the consolidated text are built from these sources by `website/build_release.py` in https://github.com/anahronic/Dikenocracy.
 
 How to Contribute or Critique
 
