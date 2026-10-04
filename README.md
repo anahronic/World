@@ -106,7 +106,7 @@ Any research materials included in this repository are non-normative and do not 
 
 Key Documents
 
-[Dikenocracy SYNERGY and 35 PROTOCOLS.txt](Dikenocracy%20SYNERGY%20and%2035%20PROTOCOLS.txt) — the complete text of the current release (2026-10-04): the Code of Planetary Synergy, a pointer to the authorial postulates, all 35 protocols (L0–L8), the DKP-4-CRISIS-001 addendum, Appendix A and the glossary. The same file is offered for download at https://dikenocracy.com/pages/protocols.html.
+[Dikenocracy SYNERGY and 35 PROTOCOLS.txt](Dikenocracy%20SYNERGY%20and%2035%20PROTOCOLS.txt) — the complete text of the current release (2026-10-04): the Code of Planetary Synergy, all 35 protocols (L0–L8), the DKP-4-CRISIS-001 addendum, Appendix A and the glossary. The same file is offered for download at https://dikenocracy.com/pages/protocols.html.
 
 [Dikenocracy/](Dikenocracy/) — the canonical source of each document as Markdown (`*.md`, normative text). The `*.docx` files next to them are generated from the same sources. Each document carries its own "Last updated" date; changes to normative content follow DKP-4-UPGRADE-001.
 
