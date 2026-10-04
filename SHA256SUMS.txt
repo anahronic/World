@@ -1,5 +1,5 @@
 # Dikenocracy release 2026-10-04
-6bcd39a48eb3bf0e8fbfc6bac66ed6dd49264718a8365ad715e24c4df466d17b  Dikenocracy SYNERGY and 35 PROTOCOLS.txt
+bb5931017ce0bd7fc59a13deee64e55a7b12b96b126a5c318f809d3b9bf855a8  Dikenocracy SYNERGY and 35 PROTOCOLS.txt
 c7bafa9e2365588e093c5e96f89404730006d3a3d66025a6668f7f88f71d05b0  Dikenocracy/CODE-OF-PLANETARY-SYNERGY.md
 cd61df940a16fc0da2966941549565af737741f21082fbbfced35f6c962e161b  Dikenocracy/Dikenocracy Glossary.md
 11cae82c33efd663125ace16420ff5b6c32fa983fa91a3c4b306ecd3448ce829  Dikenocracy/Protocols/L0_Physical_Truth/DKP-0-ORACLE-001.md
